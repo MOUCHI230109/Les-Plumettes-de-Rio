@@ -25,9 +25,8 @@ body {
 
 }
 
-header
+header .topnav {
 /* Style de la barre de navigation principale */
-.topnav {
   overflow: hidden;
   background-color: #D2B48C;
 }
@@ -72,11 +71,20 @@ header
   
 }
 
+/* Image ronde */
+.img-ronde {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
 /* Ajoute des cartes pour encadrer les sujets */
 .card {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
+  text-align: justify; /* ← ajoute cette ligne */
 }
 
 /* Arrange les colonnes flottantes */
@@ -84,6 +92,16 @@ header
   content: "";
   display: table;
   clear: both;
+}
+
+/* Texte et image côte à côte */
+.card-flex {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
 /* Pied de page */
@@ -100,6 +118,9 @@ header
   .leftcolumn, .rightcolumn {   
     width: 100%;
     padding: 0;
+  }
+   .card-flex {             /* ← ajoute ces lignes */
+    flex-direction: column;
   }
 }
 
