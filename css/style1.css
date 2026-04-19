@@ -25,7 +25,7 @@ body {
 
 }
 
-header .topnav {
+.topnav {
 /* Style de la barre de navigation principale */
   overflow: hidden;
   background-color: #D2B48C;
