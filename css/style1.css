@@ -63,6 +63,25 @@ body {
   padding-left: 20px;
 }
 
+.row {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.main-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.rightcolumn {
+  width: 220px;
+  flex-shrink: 0;
+}
+
 /* Image */
 .image {
   background-color: #A9A9A9;
