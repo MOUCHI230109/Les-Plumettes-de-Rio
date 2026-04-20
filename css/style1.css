@@ -10,13 +10,12 @@ body {
 }
 
 .header {
-  padding: 40px;
+  padding: 100px;
   font-size: x-large;
   text-align: center;
   background-image: url("Image\ de\ fond.jpg");
   background-color: white;
   color: black;
-
   background-size: cover;      /* ← image couvre toute la case */
   background-repeat: no-repeat; /* ← plus de répétition */
   background-position: center; /* ← centrée */
