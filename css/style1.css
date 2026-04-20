@@ -9,15 +9,17 @@ body {
  
 }
 
-/* En-tête de la page web */
 .header {
   padding: 40px;
-  font-size:x-large;
+  font-size: x-large;
   text-align: center;
   background-image: url("Image\ de\ fond.jpg");
   background-color: white;
-  color:black;
+  color: black;
 
+  background-size: cover;      /* ← image couvre toute la case */
+  background-repeat: no-repeat; /* ← plus de répétition */
+  background-position: center; /* ← centrée */
 }
 
 .header h1 {
