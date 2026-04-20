@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-  height: 75px;
+  padding: 75px;
   text-align: center;
   background-image: url("Image\ de\ fond.jpg");
   background-color: #1a0a00;
