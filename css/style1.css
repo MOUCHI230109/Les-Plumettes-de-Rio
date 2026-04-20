@@ -10,15 +10,17 @@ body {
 }
 
 .header {
-  padding: 100px;
-  font-size: x-large;
+  height: 75px;
   text-align: center;
   background-image: url("Image\ de\ fond.jpg");
-  background-color: white;
-  color: black;
-  background-size: cover;      /* ← image couvre toute la case */
-  background-repeat: no-repeat; /* ← plus de répétition */
-  background-position: center; /* ← centrée */
+  background-color: #1a0a00;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header h1 {
