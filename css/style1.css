@@ -125,6 +125,7 @@ body {
   display: flex;
   gap: 20px;
   align-items: center;
+  text-align: justify;
 }
 
 /* Pied de page */
